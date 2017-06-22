@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    >
+    <Button
+        android:id="@+id/btn_request"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="网络请求"
+
+        />
+    <Button
+        android:id="@+id/btn_registerandlogin"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="注册登陆"
+
+        />
+    <Button
+        android:id="@+id/btn_img"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="图片加载"
+
+        />
+    <Button
+        android:id="@+id/btn_comm"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="组件通信"
+        />
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tab_text_size"
+        />
+
+</LinearLayout>

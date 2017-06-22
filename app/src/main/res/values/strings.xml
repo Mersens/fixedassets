@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">fixedassets</string>
+    <string name="tab0">首页</string>
+    <string name="tab1">健康</string>
+    <string name="tab2">消息</string>
+    <string name="tab3">我的</string>
+</resources>
